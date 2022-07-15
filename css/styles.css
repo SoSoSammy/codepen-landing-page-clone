@@ -1,4 +1,113 @@
-h1 {
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+header>.left-column img {
+    width: 172px;
+    height: 33px;
+    margin: 10px 40px 10px 20px;
+}
+
+header>.left-column {
+    display: flex;
+}
+
+/* Nav */
+header>.left-column>nav {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header>.left-column>nav>.explore {
+    color: #f1d579;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.links-wrapper>.nav-link a {
+    color: white;
+    font-weight: 700;
+    padding-right: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper>.nav-link a:hover {
+    color: #c2c1c1;
+}
+
+.links-wrapper>.spark a {
+    color: #bebebe;
+    font-weight: 500;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+
+.links-wrapper>.spark a:hover {
+    color: #e7e7e7;
+    transition: 0.5s;
+}
+
+.links-wrapper>.spark>a>i {
+    margin-left: 7px;
+}
+
+header>.right-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>.right-column .button {
+    text-decoration: none;
+    color: white;
+    background-color: #414141;
+    padding: 14px 20px;
+    margin: 0 5px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+header>.right-column .button:hover {
+    background-color: #575757;
+}
+
+header>.right-column .create>i {
+    color: #60e667;
+    margin-left: 5px;
+}
+
+header>.right-column i.fa-magnifying-glass {
+    font-size: 2em;
+    color: #949494;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+header>.right-column i.fa-magnifying-glass:hover {
+    color: #b9b9b9;
+    cursor: pointer;
+}
+
+/* Codepen types button bar */
+.codepen-types-button span {
+    font-family: 'Rammetto One', cursive;
 }
