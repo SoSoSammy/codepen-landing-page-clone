@@ -217,6 +217,10 @@ main>.gradient-background>.columns-wrapper>.right-column>figure img {
     flex-grow: 1;
 }
 
+.codepen-types-bar .codepen-types-button.writing {
+    border-right: none;
+}
+
 .codepen-types-button span {
     font-family: 'Rammetto One', cursive;
     font-weight: 400;
