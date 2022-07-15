@@ -6,7 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodePen: Online Code Editor and Front End Web Developer Community</title>
+
     <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&family=Roboto:wght@100;400;700&display=swap"
+        rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/774cd7acea.js" crossorigin="anonymous"></script>
 </head>
 
@@ -16,7 +23,7 @@
         <div class="left-column">
             <img src="images/codepen-logo-light.png" alt="Logo">
             <nav>
-                EXPLORE
+                <span class="explore">EXPLORE</span>
 
                 <div class="links-wrapper">
                     <div class="nav-link">
@@ -35,15 +42,15 @@
                         <a href="#">Collections</a>
                     </div><!-- end .nav-link -->
 
-                    <div class="nav-link">
+                    <div class="nav-link spark">
                         <a href="#">Spark <i class="fa-solid fa-angle-down"></i></a>
-                    </div><!-- end .nav-link -->
+                    </div><!-- end .nav-link .spark -->
                 </div><!-- end .links-wrapper -->
             </nav>
         </div><!-- end .left-column -->
 
         <div class="right-column">
-            <a href="#" class="button">Create <i class="fa-solid fa-angle-down"></i></a>
+            <a href="#" class="button create">Create <i class="fa-solid fa-chevron-down"></i></i></a>
             <i class="fa-solid fa-magnifying-glass"></i>
             <a href="#" class="button">Log In</a>
             <a href="#" class="button">Sign Up</a>
@@ -72,13 +79,13 @@
 
         <!-- ********************** CODEPEN TYPES BAR *********************************** -->
         <footer class="codepen-types-bar">
-            <a href="#">CodePen for <span>TEAMS</span></a>
+            <div class="codepen-types-button">CodePen for <span>TEAMS</span></div><!-- end .codepen-types-button -->
 
-            <a href="#">CodePen for <span>EDUCATION</span></a>
+            <div class="codepen-types-button">CodePen for <span>EDUCATION</span></div><!-- end .codepen-types-button -->
 
-            <a href="#">CodePen for <span>PRIVACY</span></a>
+            <div class="codepen-types-button">CodePen for <span>PRIVACY</span></div><!-- end .codepen-types-button -->
 
-            <a href="#">CodePen for <span>WRITING</span></a>
+            <div class="codepen-types-button">CodePen for <span>WRITING</span></div><!-- end .codepen-types-button -->
 
             <div class="spacer-60"></div><!-- end .spacer-60 -->
         </footer><!-- end .codepen-types-bar -->
