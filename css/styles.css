@@ -2,6 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 /* Header */
@@ -106,6 +107,96 @@ header>.right-column i.fa-magnifying-glass:hover {
     color: #b9b9b9;
     cursor: pointer;
 }
+
+/* Main section */
+.gradient-background {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(52, 56, 70, 1) 55%, rgba(66, 67, 74, 1) 100%);
+}
+
+main>.gradient-background .columns-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px 40px;
+    padding-top: 50px;
+}
+
+main>.gradient-background>.columns-wrapper>.left-column {
+    padding-right: 40px;
+}
+
+main>.gradient-background>.columns-wrapper>.left-column h1 {
+    color: #e2e2e2;
+    font-weight: 300;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+main>.gradient-background>.columns-wrapper>.left-column strong {
+    color: white;
+}
+
+main>.gradient-background>.columns-wrapper>.left-column p {
+    color: #b9b9b9;
+    font-size: 2em;
+}
+
+main>.gradient-background>.columns-wrapper>.left-column>.buttons {
+    padding: 20px 0;
+}
+
+main>.gradient-background>.columns-wrapper>.left-column>.buttons .button {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2em;
+    padding: 14px 20px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+main>.gradient-background>.columns-wrapper>.left-column>.buttons .button.sign-up {
+    background-color: #60e667;
+    color: black;
+    margin-right: 15px;
+}
+
+main>.gradient-background>.columns-wrapper>.left-column>.buttons .button.sign-up:hover {
+    background-color: #82ec87;
+}
+
+main>.gradient-background>.columns-wrapper>.left-column>.buttons .button.learn-more {
+    background-color: black;
+    color: white;
+}
+
+main>.gradient-background>.columns-wrapper>.left-column>.buttons .button.learn-more:hover {
+    background-color: #131313;
+}
+
+main>.gradient-background>.columns-wrapper>.right-column>figure {
+    margin: 0;
+}
+
+main>.gradient-background>.columns-wrapper>.right-column>figure>figcaption {
+    color: white;
+    font-weight: 700;
+}
+
+main>.gradient-background>.columns-wrapper>.right-column>figure>figcaption span {
+    color: #86e7ff;
+}
+
+main>.gradient-background>.columns-wrapper>.right-column>figure img {
+    width: 730px;
+    height: 605px;
+    -webkit-box-shadow: -16px 21px 34px -5px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: -16px 21px 34px -5px rgba(0, 0, 0, 0.78);
+    box-shadow: -16px 21px 34px -5px rgba(0, 0, 0, 0.78);
+}
+
+
+
+
 
 /* Codepen types button bar */
 .codepen-types-button span {
